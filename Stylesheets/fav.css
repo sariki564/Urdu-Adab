@@ -1,0 +1,53 @@
+body{
+  background: #d4fefcbb;
+}
+@font-face {
+    font-family: 'MehrNastaliq';
+    src: url('fonts/Mehr_Nastaliq_Web v.2.0.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the Urdu font only to Urdu text */
+p:lang(ur), h1:lang(ur), h2:lang(ur), h3:lang(ur),legend:lang(ur), h4:lang(ur), h5:lang(ur) {
+    font-family: 'MehrNastaliq', sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+nav{
+  background-color: black;
+  overflow:hidden;
+  border:3px solid #087975;
+  border-radius: 50px;
+  margin: 0px;
+  padding:20px 0px;
+  position:relative;
+}
+nav a{
+  color:white;
+  text-align-last: Center;
+  text-decoration: none;
+  font-size: 14px;
+  padding:7px;
+}
+nav a:hover{
+  background-color: white;
+  color: #087975;
+  border:none;
+  border-radius: 50px;
+}
+nav a:active{
+  background-color: white;
+  color: #087975;
+  border:none;
+  border-radius: 50px;
+}
+
+.Cover{
+  border:3px solid white;
+  border-radius:20px;
+}
+.first{
+  color: red;
+  text-align: center;
+}
