@@ -1,0 +1,104 @@
+body{
+  background: #d4fefcbb;
+}
+@font-face {
+    font-family: 'MehrNastaliq';
+    src: url('fonts/Mehr_Nastaliq_Web v.2.0.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the Urdu font only to Urdu text */
+p:lang(ur), h1:lang(ur), h2:lang(ur), h3:lang(ur),legend:lang(ur), h4:lang(ur), h5:lang(ur) {
+    font-family: 'MehrNastaliq', sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+.bio{
+  font-size: 30px;
+}
+nav{
+  background-color: black;
+  overflow:hidden;
+  border:3px solid #087975;
+  border-radius: 50px;
+  margin: 0px;
+  padding:10px;
+  position:relative;
+}
+nav a{
+  color:white;
+  text-align-last: Center;
+  text-decoration: none;
+  font-size: 14px;
+  padding:7px;
+}
+nav a:hover{
+  background-color: white;
+  color: #087975;
+  border:none;
+  border-radius: 50px;
+}
+nav a:active{
+  background-color: white;
+  color: #087975;
+  border:none;
+  border-radius: 50px;
+}
+
+.Cover{
+  border:3px solid white;
+  border-radius:20px;
+}
+fieldset{
+  border-radius: 10px;
+  box-shadow: 5px;
+  background: #f0c9f9;
+}
+section img {
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  float:left;
+  width: 200px;
+}
+.intro{
+  margin-bottom:0px;
+  margin-top: 0px;
+  font-size: 13px;
+}
+.heading{
+  color: #ae07d3;
+}
+.buttons{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+}
+.button{
+  text-align:center;
+  padding:6px;
+  border:2px solid #ae07d3;
+  text-decoration: none;
+  border-radius: 10px;
+  margin:2px;
+  color:#ae07d3;
+}
+.button:hover,.box-4{
+  color:white;
+  background: #ae07d3;
+  border:2px solid white;
+}
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bio{
+  color:white;
+  background: #087975;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border:2px solid #ae07d3;
+}

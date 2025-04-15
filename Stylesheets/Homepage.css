@@ -1,0 +1,114 @@
+body{
+  background: #d4fefcbb;
+}
+@font-face {
+    font-family: 'MehrNastaliq';
+    src: url('fonts/Mehr_Nastaliq_Web v.2.0.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the Urdu font only to Urdu text */
+p:lang(ur), h1:lang(ur), h2:lang(ur), h3:lang(ur),legend:lang(ur), h4:lang(ur), h5:lang(ur) {
+    font-family: 'MehrNastaliq', sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+nav{
+  background-color: black;
+  overflow:hidden;
+  border:3px solid #087975;
+  border-radius: 50px;
+  margin: 0px;
+  padding:10px;
+  position:relative;
+}
+nav a{
+  color:white;
+  text-align-last: Center;
+  text-decoration: none;
+  font-size: 14px;
+  padding:7px;
+}
+nav a:hover{
+  background-color: white;
+  color: #087975;
+  border:none;
+  border-radius: 50px;
+}
+nav a:active{
+  background-color: white;
+  color: #087975;
+  border:none;
+  border-radius: 50px;
+}
+
+.Cover{
+  border:3px solid white;
+  border-radius:20px;
+}
+.poetry-box {
+            width: 100%;
+            font-size: 24px;
+            margin:5px 0px;
+            color: white;
+            background-size: 300% 300%;
+            text-shadow: 2px 2px 4px black;
+            position:relative;
+            text-align: center;
+            justify-content: center;
+        }
+        .emoji {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+.one{
+  border-radius: 10px;
+  box-shadow:2px 2px 2px black;
+  background: #fcbbe7;
+}
+.two{
+  border-radius: 10px;
+  background: #9eedeb;
+  box-shadow:3px 3px 8px black;
+}
+.three{
+  border-radius: 10px;
+  background: #bbbdfc;
+  box-shadow:3px 3px 8px black;
+}
+section img {
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  float:left;
+  width: 200px;
+}
+.intro{
+  margin-bottom:0px;
+  margin-top: 0px;
+  font-size: 13px;
+}
+.Main{
+  font-size: 35px;
+}
+.heading{
+  color: #09928a;
+}
+.See-more{
+  padding:4px;
+  border:#087975 solid 1px;
+  border-radius: 20px;
+  text-decoration: none;
+  background: #d4fefcbb;
+  color: #087975;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+.See-more:hover{
+  background-color: #087975;
+  color:white;
+  border: white solid 1px;
+  border-radius: 20px;
+}
