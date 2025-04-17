@@ -20,15 +20,15 @@ nav{
   border:3px solid #087975;
   border-radius: 50px;
   margin: 0px;
-  padding:20px 0px;
+  padding:20px 50px;
   position:relative;
 }
 nav a{
   color:white;
   text-align-last: Center;
   text-decoration: none;
-  font-size: 14px;
-  padding:7px;
+  font-size: 40px;
+  padding:15px;
 }
 nav a:hover{
   background-color: white;
