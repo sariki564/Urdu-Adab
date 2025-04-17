@@ -81,6 +81,7 @@ section img {
   border-radius: 10px;
   margin:2px;
   color:#fdb726;
+  font-size:30px;
 }
 .button:hover,.box-2{
   color:white;
