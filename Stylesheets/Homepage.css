@@ -20,15 +20,15 @@ nav{
   border:3px solid #087975;
   border-radius: 50px;
   margin: 0px;
-  padding:20px 0px;
+  padding:20px 50px;
   position:relative;
 }
 nav a{
   color:white;
   text-align-last: Center;
   text-decoration: none;
-  font-size: 14px;
-  padding:7px;
+  font-size: 50px;
+  padding:15px;
 }
 nav a:hover{
   background-color: white;
@@ -66,16 +66,19 @@ nav a:active{
   border-radius: 10px;
   box-shadow:2px 2px 2px black;
   background: #fcbbe7;
+  margin:15px
 }
 .two{
   border-radius: 10px;
   background: #9eedeb;
   box-shadow:3px 3px 8px black;
+  margin:15px;
 }
 .three{
   border-radius: 10px;
   background: #bbbdfc;
   box-shadow:3px 3px 8px black;
+  margin:50px
 }
 section img {
   border: none;
