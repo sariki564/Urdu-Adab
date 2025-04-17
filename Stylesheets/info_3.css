@@ -14,24 +14,21 @@ p:lang(ur), h1:lang(ur), h2:lang(ur), h3:lang(ur),legend:lang(ur), h4:lang(ur), 
     direction: rtl;
     text-align: right;
 }
-.bio{
-  font-size: 30px;
-}
 nav{
   background-color: black;
   overflow:hidden;
   border:3px solid #087975;
   border-radius: 50px;
   margin: 0px;
-  padding:10px;
+  padding:20px 50px;
   position:relative;
 }
 nav a{
   color:white;
   text-align-last: Center;
   text-decoration: none;
-  font-size: 14px;
-  padding:7px;
+  font-size: 40px;
+  padding:20px;
 }
 nav a:hover{
   background-color: white;
@@ -78,12 +75,13 @@ section img {
 }
 .button{
   text-align:center;
-  padding:6px;
+  padding:30px;
   border:2px solid #d30707;
   text-decoration: none;
   border-radius: 10px;
   margin:2px;
   color:#d30707;
+  font-size:30px;
 }
 .button:hover,.box-3{
   color:white;
@@ -96,9 +94,10 @@ section img {
   justify-content: center;
 }
 .bio{
+  font-size:50px;
   color:white;
   background: #087975;
-  padding: 5px 10px;
+  padding: 15px 50px;
   border-radius: 50px;
   border:2px solid #d30707;
 }
