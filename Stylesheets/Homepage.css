@@ -27,7 +27,7 @@ nav a{
   color:white;
   text-align-last: Center;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 40px;
   padding:15px;
 }
 nav a:hover{
@@ -78,7 +78,7 @@ nav a:active{
   border-radius: 10px;
   background: #bbbdfc;
   box-shadow:3px 3px 8px black;
-  margin:50px
+  margin:15px
 }
 section img {
   border: none;
