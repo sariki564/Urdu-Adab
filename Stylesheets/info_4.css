@@ -23,15 +23,15 @@ nav{
   border:3px solid #087975;
   border-radius: 50px;
   margin: 0px;
-  padding:10px;
+  padding:20px 50px;
   position:relative;
 }
 nav a{
   color:white;
   text-align-last: Center;
   text-decoration: none;
-  font-size: 14px;
-  padding:7px;
+  font-size: 50px;
+  padding:15px;
 }
 nav a:hover{
   background-color: white;
@@ -78,12 +78,13 @@ section img {
 }
 .button{
   text-align:center;
-  padding:6px;
+  padding:30px;
   border:2px solid #ae07d3;
   text-decoration: none;
   border-radius: 10px;
   margin:2px;
   color:#ae07d3;
+  font-size:30px;
 }
 .button:hover,.box-4{
   color:white;
@@ -98,7 +99,8 @@ section img {
 .bio{
   color:white;
   background: #087975;
-  padding: 5px 10px;
+  padding: 20px 50px;
+  font-size:50px;
   border-radius: 50px;
   border:2px solid #ae07d3;
 }
