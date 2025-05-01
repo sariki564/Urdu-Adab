@@ -1,1 +1,7 @@
-# Urdu-Adab
+# Admin and Founder:
+
+    Muhammad Ilyas
+
+# Partner
+
+    Abdullah Leghari
